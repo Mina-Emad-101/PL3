@@ -1,0 +1,7 @@
+/home/mina/Documents/Projects/University/LibrarySystem/src/LibrarySystem/bin/Debug/net10.0/LibrarySystem.fable-temp.deps.json
+/home/mina/Documents/Projects/University/LibrarySystem/src/LibrarySystem/bin/Debug/net10.0/LibrarySystem.fable-temp.runtimeconfig.json
+/home/mina/Documents/Projects/University/LibrarySystem/src/LibrarySystem/obj/Debug/net10.0/LibrarySystem.fable-temp.GeneratedMSBuildEditorConfig.editorconfig
+/home/mina/Documents/Projects/University/LibrarySystem/src/LibrarySystem/obj/Debug/net10.0/LibrarySystem.fable-temp.AssemblyInfoInputs.cache
+/home/mina/Documents/Projects/University/LibrarySystem/src/LibrarySystem/obj/Debug/net10.0/LibrarySystem.fable-temp.AssemblyInfo.cs
+/home/mina/Documents/Projects/University/LibrarySystem/src/LibrarySystem/obj/Debug/net10.0/LibraryS.F3307BCB.Up2Date
+/home/mina/Documents/Projects/University/LibrarySystem/src/LibrarySystem/obj/Debug/net10.0/LibrarySystem.fable-temp.genruntimeconfig.cache

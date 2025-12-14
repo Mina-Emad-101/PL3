@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LibrarySystem.Tests/LibrarySystem.Tests.csproj" />
+    <Project Path="src/LibrarySystem/LibrarySystem.fsproj" />
+  </Folder>
+  <Project Path="LibrarySystem.Tests/LibrarySystem.Tests.fsproj" />
+</Solution>
