@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Management</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .form-group {
+        margin-bottom: 10px;
+        display: flex;
+        gap: 10px;
+      }
+
+      input {
+        padding: 5px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      button {
+        cursor: pointer;
+        padding: 5px 10px;
+      }
+
+      .delete-btn {
+        color: red;
+      }
+    </style>
+  </head>
+
+	<body>
+    <h1>Library System</h1>
+
+    <div class="form-group">
+        <input type="text" id="titleInput" placeholder="Title" />
+        <input type="text" id="authorInput" placeholder="Author" />
+				<input type="file" id="imageInput" accept="image/*"> 
+        <button id="addBtn">Add Book</button>
+    </div>
+
+    <div class="form-group">
+        <input type="text" id="titleSearch" placeholder="Title" />
+        <input type="text" id="authorSearch" placeholder="Author" />
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="bookTableBody">
+            </tbody>
+    </table>
+
+    <script type="module" src="/Program.fs.js"></script>
+</body>
+</html>
